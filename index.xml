@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataIndex battleScribeVersion="1.15" name="Ninja Allstars" indexUrl="https://github.com/BSData/ninja-all-stars/index.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
+  <repositoryUrls/>
+  <dataIndexEntries>
+    <dataIndexEntry filePath="Ninja_All-stars.gstz" dataType="gamesystem" dataId="6d8c-3a0c-8102-151d" dataName="Ninja All-stars" dataBattleScribeVersion="1.15" dataRevision="2"/>
+    <dataIndexEntry filePath="Tanchyo.catz" dataType="catalogue" dataId="f329-5cbc-6c46-d5d6" dataName="Tanchyo" dataBattleScribeVersion="1.15" dataRevision="2"/>
+    <dataIndexEntry filePath="Kitsune.catz" dataType="catalogue" dataId="6101-7179-e768-858a" dataName="Kitsune" dataBattleScribeVersion="1.15" dataRevision="1"/>
+    <dataIndexEntry filePath="Yamazaru.catz" dataType="catalogue" dataId="ffef-8fa8-71b6-1fb5" dataName="Yamazaru" dataBattleScribeVersion="1.15" dataRevision="1"/>
+    <dataIndexEntry filePath="Ika.catz" dataType="catalogue" dataId="58c7-df37-0e8d-cbfc" dataName="Ika" dataBattleScribeVersion="1.15" dataRevision="2"/>
+    <dataIndexEntry filePath="Ronin.catz" dataType="catalogue" dataId="9be5-e1cd-9db8-cdc9" dataName="Ronin" dataBattleScribeVersion="1.15" dataRevision="3"/>
+    <dataIndexEntry filePath="Taro.catz" dataType="catalogue" dataId="047a-289d-71c0-9f4d" dataName="Tora" dataBattleScribeVersion="1.15" dataRevision="1"/>
+    <dataIndexEntry filePath="Ijin.catz" dataType="catalogue" dataId="24ab-3591-2a43-8b0b" dataName="Ijin" dataBattleScribeVersion="1.15" dataRevision="1"/>
+  </dataIndexEntries>
+</dataIndex>
