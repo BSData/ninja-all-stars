@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9be5-e1cd-9db8-cdc9" revision="3" gameSystemId="6d8c-3a0c-8102-151d" gameSystemRevision="1" battleScribeVersion="1.15" name="Ronin" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="f43b-aad3-e4d1-a192" name="Arashikage" points="23.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="d1b6-9361-cf33-a31c" name="Range 5" hidden="false">
+          <description>-2AT Stealthy</description>
+          <modifiers/>
+        </rule>
+        <rule id="e959-f013-fc00-84db" name="Cobra Strike" hidden="false">
+          <description>Check Card</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="46be-bdab-f6dc-0b3c" profileTypeId="2592-9de7-fb3a-2371" name="Arashikage" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="6"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="5"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="2"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Water/Fire"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a071-d1c6-216f-5aa7" targetId="4705-b8f6-2942-a0d5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="289a-da40-2bc7-b9ec" targetId="5687-3e55-c42d-ab58" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d37a-82f6-0f33-d8fb" targetId="7cf9-4bf0-3ee9-dd09" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="251c-0a1e-b832-f918" targetId="5ae2-dfc3-7b0a-66fd" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="596a-0741-74c3-98df" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="bcf8-f723-4789-909b" name="Bakusho Mondai" points="14.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="70f9-d3b8-bf67-a29c" name="Smooth Moves" hidden="false">
+          <description>Check Card</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="1c94-2223-a617-c4d6" profileTypeId="2592-9de7-fb3a-2371" name="Bakusho Mondai" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="6"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="3"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="3"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Fire/Spirit"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="72d9-ece5-a3f2-e4bc" targetId="4e91-f87d-d064-517e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e8a1-6853-33c5-d9ea" targetId="6ca0-3767-7b27-7b80" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fb16-f147-fe0e-57a7" targetId="e233-b1d0-0274-2bf6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2c1b-03ab-0d04-8323" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b517-6642-89d2-3d11" name="Benkei" points="16.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="abf3-4c9e-f59d-3687" name="Immovable" hidden="false">
+          <description> If Benkei has not activated during the
+round, he gets +2DF .</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f4ea-9d1d-fbd7-0438" profileTypeId="2592-9de7-fb3a-2371" name="Benkei" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="3"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="3"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="4"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Earth"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="97f5-fdac-bd45-563a" targetId="23de-3c58-da51-f1d0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b2c3-4e28-f567-da57" targetId="abcb-25a6-6a7e-f30b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2487-4373-efd1-77e4" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0b77-1da7-fa57-0cb7" name="Blind Swordsman" points="16.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="4869-ec55-7a7c-1d17" name="Uncanny Awareness" hidden="false">
+          <description>For all purposes, the Blind
+Swordsman treats models that are in Stealth as
+though they were not in Stealth</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="8454-1070-25c1-7b97" profileTypeId="2592-9de7-fb3a-2371" name="Blind Swordsman" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="5"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="3"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="2"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Air/Spirit"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e51a-c698-326b-32d9" targetId="4705-b8f6-2942-a0d5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4cee-cd9b-ac65-5edf" targetId="6ca0-3767-7b27-7b80" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7ab9-5b92-3575-0a7e" targetId="76d7-e3c0-011e-2c26" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c7c3-d6a1-0d4b-4ad1" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="437d-4cfe-d7ac-e257" name="Dark Kitsune" points="15.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="d251-e013-c1eb-ec85" name="Deadly Poison" hidden="false">
+          <description>Ranged 6. If a Spirit is rolled by
+Dark Kitsune, the target is Poisoned, regardless of
+the result chosen.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="7b5e-872a-0656-ced5" profileTypeId="2592-9de7-fb3a-2371" name="Dark Kitsune" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="7"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="2"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="2"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Spirit/Void"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="852a-c651-2cb0-0290" targetId="642f-19ab-5477-6c2b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d564-c68a-b10e-8618" targetId="e233-b1d0-0274-2bf6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="609a-4419-f65f-9a0b" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="42ba-2620-42e6-2f94" targetId="0eb7-e22e-240c-e65c" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0469-c4c2-e781-030c" name="Goemon" points="23.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="5fe3-7021-94f2-2584" name="Redistribution" hidden="false">
+          <description>Check Card</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="9c5a-bedf-919a-ab1b" profileTypeId="2592-9de7-fb3a-2371" name="Goemon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="6"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="4"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="3"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Earth/Water"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="7"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="772a-bceb-0063-e486" targetId="e89d-7017-5026-36b5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0096-54cb-0248-7308" targetId="93ed-7221-1f22-8cd5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4ddb-69f7-7859-3018" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ece9-52b3-cc88-428e" targetId="8418-3936-b544-7b9e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="399e-74dc-b728-b2c5" targetId="0601-6aa0-b5f3-7531" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e897-cd93-b04b-7699" name="Hanzo" points="25.0" categoryId="0cbb-66d8-1028-c841" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="b817-9a33-023b-32c8" name="Master Assassin" hidden="false">
+          <description>While in Stealth, Hanzo does not have to make an affinity check to leave a space in an enemy model&apos;s influence zone. Additionally, Hanzo gets +2AT when attacking from Stealth instead of +1.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="2fae-c7fb-6cb7-b1b3" profileTypeId="2592-9de7-fb3a-2371" name="Hanzo" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="5"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="4"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="4"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Air/Fire"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="7"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="48c3-49da-a25a-c69c" targetId="9a81-58de-8099-2f51" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="211f-fb5a-3865-3904" targetId="e233-b1d0-0274-2bf6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8302-508b-789e-cc6b" targetId="ad3e-4700-743f-087c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2656-e64a-a78f-a339" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="98e7-6460-ad7e-ae2b" targetId="220d-7672-9857-38f6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="14e4-bf6f-e979-4243" targetId="e324-5297-14a4-c0b6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0214-57ef-7e20-f965" name="Hanzo Fire" points="22.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="ef9d-8a25-71e0-a292" name="Strength of a Raging Fire" hidden="false">
+          <description>When Hanzo attacks, for every (Fire) he has left after cancellation, Stun an enemy model within 2 spaces of him in addition to the normal resolution of the attack.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="d2c0-8793-eea0-220a" profileTypeId="2592-9de7-fb3a-2371" name="Hanzo Fire" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="6"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="5"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="3"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Fire"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2678-b36c-535e-fdfa" targetId="5687-3e55-c42d-ab58" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a192-3dbd-9fdc-8424" targetId="0e60-dd53-f0a9-8b9c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2caa-c2f3-5602-f41c" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="91f8-3e7b-1f0e-b332" name="Hanzo Water" points="20.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="6326-dad5-1c27-a540" name="Swift as a Coursing River" hidden="false">
+          <description>Every space within 2 spaces of Hanzo counts as difficult terrain for enemy models.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="ab72-0a3d-1af5-587d" profileTypeId="2592-9de7-fb3a-2371" name="Hanzo Water" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="5"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="3"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="5"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Water"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="bac7-fe70-fd4c-a7e2" targetId="9013-0804-cd85-4f0f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d310-3d56-de54-67ff" targetId="8d31-814b-f17c-8284" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4f21-08a2-c7af-8e45" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5e93-42d6-97ea-a6dd" name="Howl &amp; Yip" points="23.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="ac88-f511-ef36-36e8" name="Master Swordsman" hidden="false">
+          <description>Models attacking Howl and
+Yip cannot get assists or back strike bonuses.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="1e28-3780-4df6-96f7" profileTypeId="2592-9de7-fb3a-2371" name="Howl &amp; Yip" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="5"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="3"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="4"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Earth/Fire"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e775-c132-2233-9983" targetId="4705-b8f6-2942-a0d5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7fc3-c73e-bc6b-6960" targetId="ad3e-4700-743f-087c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9cf7-42ac-f81c-0284" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c04b-67a7-fad9-028b" targetId="fa7c-29fd-4b8b-fc06" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9c7f-8e5d-abd3-8e42" name="Inu Clan Kaiken" points="13.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="be2f-576c-648f-29a2" name="Best Friends" hidden="false">
+          <description>Choose a model on your team before
+the game begins. Whenever Inu Clan Kaiken gives
+or gets an assist bonus due to the chosen model, the
+assist bonus is +2 instead of +1</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="e5e1-4e90-5c29-630d" profileTypeId="2592-9de7-fb3a-2371" name="Inu Clan Kaiken" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="6"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="2"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="3"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Earth"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6c33-6d63-fdd2-44e7" targetId="23de-3c58-da51-f1d0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f230-729f-b117-f8fe" targetId="5ae2-dfc3-7b0a-66fd" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2a8e-eb5a-b11a-4ca0" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a802-b977-a91d-2f89" name="Jorogumo" points="16.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="1156-7e1c-5f9c-2573" name="Spider Legs" hidden="false">
+          <description>The Jorogumo only pays one movement
+point to move onto elevated terrain</description>
+          <modifiers/>
+        </rule>
+        <rule id="7f7b-9f73-9ecf-9470" name="Binding Bride" hidden="false">
+          <description>When an enemy model enters
+the Jorogumo’s influence zone, the model must
+immediately stop moving. The model may not move
+until its next activation.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c231-f118-df25-8ce4" profileTypeId="2592-9de7-fb3a-2371" name="Jorogumo" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="5"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="2"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="2"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Water/Void"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e434-fca5-0b63-4848" targetId="92c3-f547-ab86-92c6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7cfa-ba78-519c-9f6f" targetId="7cf9-4bf0-3ee9-dd09" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="289d-994c-0d25-b63e" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0389-e8f1-c334-ce9a" targetId="8d31-814b-f17c-8284" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4ddf-4688-c4ba-f272" name="Kappa" points="20.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="3c39-2127-f965-254c" name="From the Deep" hidden="false">
+          <description>If Kappa attacks when in Stealth, it
+gets +2AT .</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="96e2-67f4-f539-77bc" profileTypeId="2592-9de7-fb3a-2371" name="Kappa" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="4"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="2"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="4"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Earth/Water/Void"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="da6b-b952-7771-bc75" targetId="af39-768e-319c-bb8c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="57a5-2beb-7352-c97c" targetId="7cf9-4bf0-3ee9-dd09" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7e1e-22dd-6a8b-954a" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="afc9-cbdd-11f8-6868" targetId="e324-5297-14a4-c0b6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7199-2cc9-3aa4-dda6" name="Komuso" points="13.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="2aaa-caaa-aa39-2ba0" name="Resolute Melody" hidden="false">
+          <description>Friendly models within the
+Komuso’s influence zone get +1DF.</description>
+          <modifiers/>
+        </rule>
+        <rule id="8eed-9035-faac-1307" name="Elixir of Courage" hidden="false">
+          <description>If the Komuso successfully makes
+an affinity test for Tough, it may give the Protection
+token to another model within four spaces.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="2110-e53f-27ab-14b8" profileTypeId="2592-9de7-fb3a-2371" name="Komuso" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="5"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="1"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="2"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Spirit/Earth"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="07f3-53b1-3452-1e7a" targetId="794d-449d-9b54-a7c4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="db90-266e-bfd7-f079" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9a28-1f53-9620-404c" targetId="fa7c-29fd-4b8b-fc06" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2f9d-c310-d834-1e67" name="Kunoichi Candy" points="18.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="f4ea-d650-298b-6419" name="Yatta" hidden="false">
+          <description>Check Card</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="e186-2d57-388a-409a" profileTypeId="2592-9de7-fb3a-2371" name="Kunoichi Candy" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="8"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="3"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="2"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Water/Spirit"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2951-ef32-a0a9-0f2f" targetId="642f-19ab-5477-6c2b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ae97-29cb-dfa6-075c" targetId="7cf9-4bf0-3ee9-dd09" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7235-532e-07a9-0392" targetId="111a-f8b3-5783-90d6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4e33-702f-002e-fc01" targetId="e233-b1d0-0274-2bf6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6dfb-0bea-f24f-e601" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="37eb-1e1a-6233-ee8d" name="Miyamoto" points="20.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="8e3b-0346-8eb6-0650" name="Indomitable" hidden="false">
+          <description>The first time that Miyamoto Musashi
+is Injured in a round, he is Stunned instead.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="d386-bda0-126d-a4e1" profileTypeId="2592-9de7-fb3a-2371" name="Miyamoto" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="5"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="4"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="3"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Fire"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8e7c-d79b-dc25-4570" targetId="4705-b8f6-2942-a0d5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5b5b-e769-ad6a-e5a5" targetId="ad3e-4700-743f-087c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="74fe-0f55-1410-e9cc" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a7a4-8672-0c33-9ebb" name="Mochizuki" points="18.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="93d7-1d11-ad73-366f" name="Firearm Flurry" hidden="false">
+          <description>If Mochizuki is not Stunned,
+instead of attacking normally, she may make
+four ranged attacks. At the end of Mochizuki’s
+activation, she is Stunned and rolls no defense dice
+for the remainder of the round.</description>
+          <modifiers/>
+        </rule>
+        <rule id="3060-7a66-ae3b-72af" name="Range 5" hidden="false">
+          <description>+2AT</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="6587-1d46-e5fd-ea8b" profileTypeId="2592-9de7-fb3a-2371" name="Mochizuki" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="6"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="2"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="2"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Air/Fire/Water"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="40ab-0e26-0e63-3563" targetId="cfd5-bd79-cc09-6b7f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c226-fd84-c124-8b7d" targetId="d5f8-8704-ae1e-3848" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fa2a-49ce-8451-db0e" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0af6-1c22-ac84-ee71" name="Momotaro" points="21.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="c19e-7d34-0d81-c982" name="Spirit Hunter" hidden="false">
+          <description>When attacking or defending against
+a model with Spirit or Void affinity, Momotaro gets
++1AT if attacking or +1DF if defending</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="ab31-d134-ba03-ab22" profileTypeId="2592-9de7-fb3a-2371" name="Momotaro" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="5"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="5"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="4"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Earth/Fire"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6629-62ee-a1bd-f965" targetId="111a-f8b3-5783-90d6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="18ac-ead8-dcc5-ab8a" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="952d-fa12-6a75-7f40" name="Moon Princess" points="18.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0a71-fd54-fa56-ef9d" name="Zenith" hidden="false">
+          <description>At the beginning of any round that the phase
+of the moon is a Spirit Moon, the Moon Princess gets
+a Moon Power token. The Moon Princess may give
+the Moon Power token to any model in her influence
+zone instead of taking it for herself.</description>
+          <modifiers/>
+        </rule>
+        <rule id="6433-c267-92fa-a1da" name="Moon Princess Resilient note" hidden="false">
+          <description>*While the Moon Princess has Affinity with all
+elements, Resilient checks only succeed when Spirit,
+Air, or Earth are rolled.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="88c2-0575-9925-6e87" profileTypeId="2592-9de7-fb3a-2371" name="Moon Princess" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="7"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="2"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="2"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Spirit/Earth/Water/Void/Air/Fire"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b200-7ee6-d2f6-d2b6" targetId="92c3-f547-ab86-92c6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b415-3770-e0b9-5fca" targetId="4e91-f87d-d064-517e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f616-98ff-addf-b0db" targetId="6ca0-3767-7b27-7b80" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f332-537b-5387-cafa" targetId="e89d-7017-5026-36b5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ffc0-c633-924b-b866" targetId="93ed-7221-1f22-8cd5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9799-ec89-18ca-a99f" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="dd75-100a-9f3d-985a" targetId="2e94-36a1-ad6c-8353" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ffb4-f9b9-93f9-b58d" name="Ondori Clan Kaiken" points="14.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="441b-e7ca-6236-4187" name="Ondori’s Beak" hidden="false">
+          <description>If Ondori Clan Kaiken has not been
+activated this round and an enemy model moves
+into its influence zone, it may immediately attack
+the moving model. Once the combat is resolved, the
+moving model may continue their activation.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="41d4-117a-474d-3e61" profileTypeId="2592-9de7-fb3a-2371" name="Ondori Clan Kaiken" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="6"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="3"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="2"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Air"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="fccb-162d-45d8-8426" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a397-b59e-6763-c558" targetId="2e94-36a1-ad6c-8353" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="89c2-12ce-2762-9d49" name="Onibaba" points="14.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0d90-cda8-d962-445f" name="Dark Curse" hidden="false">
+          <description>At the beginning of each round,
+Onibaba may give up to two Cursed tokens, split up
+in any manner, to any models within six spaces of
+Onibaba. No LoS is required</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="bb02-ed78-3ac5-bb9b" profileTypeId="2592-9de7-fb3a-2371" name="Onibaba" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="5"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="2"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="2"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Void"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7efd-9f17-4769-fd43" targetId="58a1-eb0b-1cec-8520" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e757-5263-57cb-3abf" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="794e-a4b4-2b29-bdef" name="Onryo" points="15.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="1bf7-f58f-59f4-1f62" name="The Ring" hidden="false">
+          <description>Check Card</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="ca1a-ea4e-5658-f068" profileTypeId="2592-9de7-fb3a-2371" name="Onryo" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="6"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="2"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="2"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Water/Void"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="25b4-f4af-52ae-e0d2" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7577-4f04-62ac-fb57" targetId="e324-5297-14a4-c0b6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ab2a-dbd6-df68-7ef0" targetId="2e94-36a1-ad6c-8353" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="35d5-332d-0544-5096" targetId="58a1-eb0b-1cec-8520" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f9a7-35e4-7adc-704a" name="Shojo" points="16.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="22c8-65c7-6ae7-7015" name="Yopparai" hidden="false">
+          <description>At the beginning of each round, choose
+Attack or Defense. Shojo gets +2 to the chosen
+attribute until the end of the round</description>
+          <modifiers/>
+        </rule>
+        <rule id="98ff-4904-8ae9-6bec" name="Shrewd Negotiator" hidden="false">
+          <description>If Shojo is in the Healing
+House at the end of a game, her team makes two
+additional Koban.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="8796-b6aa-38fb-ac15" profileTypeId="2592-9de7-fb3a-2371" name="Shojo" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="6"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="2"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="2"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Water/Earth"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c52c-706c-715f-cf6b" targetId="4705-b8f6-2942-a0d5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a6e9-7e26-2ec4-d0b9" targetId="e233-b1d0-0274-2bf6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4810-b402-5b41-b51a" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="556c-548a-a254-2517" targetId="93ed-7221-1f22-8cd5" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2098-0609-5c73-bae9" name="Stealth Cola" points="15.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="e3ce-fdd5-4553-a9c2" name="Sparkleburst" hidden="false">
+          <description>Check Card</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="ab02-e3b8-4d9f-0989" profileTypeId="2592-9de7-fb3a-2371" name="Stealth Cola" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="7"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="2"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="3"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Earth/Void"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="4"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8aca-d699-af86-3914" targetId="af39-768e-319c-bb8c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fefa-319a-b68f-a20e" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0856-e22b-d3c0-a3be" targetId="e324-5297-14a4-c0b6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b0d3-e8e1-903b-0c40" targetId="0577-5d55-f110-e4fd" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5fdf-cbb5-eea9-dda6" name="Sun Empire Wandering Samurai" points="22.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="1daa-8981-b953-fd92" name="Honor" hidden="false">
+          <description>The Sun Empire Wandering Samurai cannot
+attack a model while in its back influence zone.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="ef79-711d-f0cb-4524" profileTypeId="2592-9de7-fb3a-2371" name="Sun Empire Wandering Samurai" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="4"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="4"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="4"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Earth/Fire"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8782-eb3d-56e2-0357" targetId="4705-b8f6-2942-a0d5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9115-b810-4fb9-192e" targetId="111a-f8b3-5783-90d6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2783-9963-0064-5d27" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="34a3-e2c3-6309-a7f3" targetId="220d-7672-9857-38f6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="75c2-c939-9218-4db2" name="Super Ninja" points="0.0" categoryId="f7d7-7a8b-5515-a0b5" type="model" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="1" maxInRoster="1" minPoints="1.0" maxPoints="1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="3ec6-8dbd-eb00-0ea2" name="Nothing to see here" hidden="false">
+          <description>Just here to validate Ronin in Battlescribe when adding them to a list.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="957f-b332-278e-5d53" name="Tengu" points="14.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="01bf-c8cb-c8e0-c6be" name="Wind Gust" hidden="false">
+          <description>For the first round of the game, every
+model on the Tengu’s team gets +2MV .</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="a893-591b-da74-42cf" profileTypeId="2592-9de7-fb3a-2371" name="Tengu" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="8"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="2"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="2"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Air/Fire"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d4cd-4225-6a98-6e02" targetId="5687-3e55-c42d-ab58" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8c6c-6293-1043-4817" targetId="4745-a4c1-8b34-6cfb" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6679-db95-fc11-c851" name="Yagyu Jubei " points="0.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="f052-17d4-9ea9-05cc" name="Banzai" hidden="false">
+          <description>When Yagyu Jubei attacks, he may move one
+space before attacking, ignoring influence zones.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c24c-efb3-905d-8ac3" profileTypeId="2592-9de7-fb3a-2371" name="Yagyu Jubei " hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="5"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="5"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="4"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Air/Earth"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c8d7-8de5-c988-bcfe" targetId="4705-b8f6-2942-a0d5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f0ab-245f-3aae-cd2f" targetId="abcb-25a6-6a7e-f30b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d988-9cc1-ffc7-9f71" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bd1f-04a3-305d-7539" targetId="220d-7672-9857-38f6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e190-0643-af51-a96f" name="Yokozuna" points="25.0" categoryId="0cbb-66d8-1028-c841" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="68d7-2eb3-fd8e-773d" name="1000 Hand Slap" hidden="false">
+          <description>Check Card</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="94d0-076c-b258-8e23" profileTypeId="2592-9de7-fb3a-2371" name="Yokozuna" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c929-3bed-296d-0385" name="MV" value="4"/>
+            <characteristic characteristicId="3061-8ed6-11b3-caf3" name="AT" value="5"/>
+            <characteristic characteristicId="167f-bed8-535b-0b1d" name="DF" value="4"/>
+            <characteristic characteristicId="da36-611b-e78b-cce7" name="Affinity" value="Earth/Water"/>
+            <characteristic characteristicId="e3af-9646-1ad8-3cdd" name="Upkeep KB" value="6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="be34-066d-7852-5a9b" targetId="111a-f8b3-5783-90d6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="249f-92f9-d070-f994" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f635-1638-cc0c-a042" targetId="ee9b-9a36-57ef-43f1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5164-ad8b-38b9-6d6d" targetId="fa7c-29fd-4b8b-fc06" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </entries>
+  <rules/>
+  <links/>
+  <sharedEntries/>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="c19c-4167-5d82-8185" name="Accurate" hidden="false">
+      <description>When a model with Accurate makes a
+ranged attack, it gets +1AT .</description>
+      <modifiers/>
+    </rule>
+    <rule id="9a81-58de-8099-2f51" name="Air Mastery" hidden="false">
+      <description>Once per round, after a model with Air
+Mastery makes a roll, it may re-roll any dice that did
+not result in Air</description>
+      <modifiers/>
+    </rule>
+    <rule id="af39-768e-319c-bb8c" name="Backstab" hidden="false">
+      <description>A model with Backstab gets +2AT , instead of +1, when making a back strike.</description>
+      <modifiers/>
+    </rule>
+    <rule id="642f-19ab-5477-6c2b" name="Blink" hidden="false">
+      <description>Before a model with Blink moves, it may make
+an affinity test. If the test is successful, the model
+ignores all models, terrain, and influence zones when
+moving. The model must end its movement in a
+legal space. If the test fails, then the model halves its
+movement, rounding down.</description>
+      <modifiers/>
+    </rule>
+    <rule id="60f4-5246-7f72-5b82" name="Blood Lust" hidden="false">
+      <description>At the beginning of its activation, a model with Blood Lust may make an affinity test. If the test is successful, it gets a Haste token. The Haste token may be used this activation or following activations as normal.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4705-b8f6-2942-a0d5" name="Close Combat Master" hidden="false">
+      <description>A model with Close Combat Master may reroll one of its dice when making a combat roll.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5687-3e55-c42d-ab58" name="Combined Attack" hidden="false">
+      <description>When a model with Combined
+Attack assists a friendly model that is attacking, the
+attacker gets +2AT instead of +1.</description>
+      <modifiers/>
+    </rule>
+    <rule id="23de-3c58-da51-f1d0" name="Dauntless" hidden="false">
+      <description>When a model with Dauntless defends, if
+its Defense is lower than the attacker’s Attack after
+any bonuses, the defender rolls the same number of
+dice as the attacker.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6884-fa30-6a08-16c2" name="Dirty Fighter" hidden="false">
+      <description>When a model with Dirty Fighter attacks, after eliminations, the defender must have at least two more dice than the attacker in order to choose the result of the attack.</description>
+      <modifiers/>
+    </rule>
+    <rule id="9013-0804-cd85-4f0f" name="Drown" hidden="false">
+      <description> A model with Drown may use its action to
+make an affinity test. If the test is successful, any
+enemy model in its influence zone is Slowed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="abcb-25a6-6a7e-f30b" name="Earth Mastery" hidden="false">
+      <description>Once per round, after a model with
+Earth Mastery makes a roll, it may reroll any dice
+that did not result in Earth.
+</description>
+      <modifiers/>
+    </rule>
+    <rule id="92c3-f547-ab86-92c6" name="Emptiness" hidden="false">
+      <description>A model with Emptiness gets +1AT if the model they are attacking gets an assist bonus and it does not.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4e91-f87d-d064-517e" name="Engulf" hidden="false">
+      <description>When a model with Engulf attacks, if there is
+a Fire element in the dice pool that was not chosen as
+the combat result, the defender is Poisoned.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7cf9-4bf0-3ee9-dd09" name="Entangle" hidden="false">
+      <description>A model with Entangle has an influence
+zone that extends two spaces away from its base. The
+model can only attack and assist adjacent models. </description>
+      <modifiers/>
+    </rule>
+    <rule id="fe54-bd53-e578-85b9" name="Expert Climber" hidden="false">
+      <description>A model with Expert Climber only
+spends two movement to move onto elevated terrain
+instead of three. </description>
+      <modifiers/>
+    </rule>
+    <rule id="0e60-dd53-f0a9-8b9c" name="Fire Mastery" hidden="false">
+      <description>Once per round, after a model with
+Fire Mastery makes a roll, it may reroll any dice that
+did not result in Fire.</description>
+      <modifiers/>
+    </rule>
+    <rule id="111a-f8b3-5783-90d6" name="Focus" hidden="false">
+      <description>A model with Focus may give up moving to roll
+an additional die when it attacks in the same turn.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6ca0-3767-7b27-7b80" name="Fortune" hidden="false">
+      <description>At the beginning of its activation, a model with
+Fortune may make an affinity test. If the test is successful,
+the model may get a Lucky token, or give a Lucky token
+to any friendly model within their influence zone.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5d01-3072-c78f-de3d" name="Frenzy" hidden="false">
+      <description>A model with Frenzy must attack an enemy
+model if it is able. Whenever a model with Frenzy
+attacks, it must attack twice against the same target.
+After attacking, the model’s Defense attribute is
+halved, rounded down, for the rest of the round.</description>
+      <modifiers/>
+    </rule>
+    <rule id="76d7-e3c0-011e-2c26" name="Gale of Blows" hidden="false">
+      <description> After a model with Gale of Blows
+attacks, it can make a second attack at -2AT . It may
+continue to make attacks at an additional -2AT per
+attack, until its Attack attribute reaches 0.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e89d-7017-5026-36b5" name="Guard" hidden="false">
+      <description>When a model with Guard assists a friendly
+model that is defending, the defending model gets
++2DF instead of +1.</description>
+      <modifiers/>
+    </rule>
+    <rule id="794d-449d-9b54-a7c4" name="Healing" hidden="false">
+      <description> A model with Healing may use its action
+to make an affinity test. If the test is successful, the
+model may remove all status effect tokens from one
+friendly model in its influence zone.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c1bc-6782-3c82-4f03" name="Ijin’s Horns" hidden="false">
+      <description>If a model with Ijin’s Horns moves three
+or more spaces before attacking, it gets +1 AT</description>
+      <modifiers/>
+    </rule>
+    <rule id="85eb-bdf7-99dc-effd" name="Ika’s Tentacles" hidden="false">
+      <description>When an enemy model attempts to
+dodge out of a space in the influence zone of a model
+with Ika’s Tentacles, the enemy model must roll one
+additional affinity element than it would normally
+need to dodge successfully.</description>
+      <modifiers/>
+    </rule>
+    <rule id="39aa-2516-b1a1-9d0b" name="Kitsune&apos;s Bite" hidden="false">
+      <description>When a model with Kitsune’s Bite
+attacks, if there is a Spirit element in the attacker’s
+dice pool that was not chosen as the combat result,
+the defender is Cursed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5ae2-dfc3-7b0a-66fd" name="Leap" hidden="false">
+      <description>While moving, once per turn, a model with
+Leap may move onto elevated terrain by spending
+only one movement point.</description>
+      <modifiers/>
+    </rule>
+    <rule id="cfd5-bd79-cc09-6b7f" name="Long Shot" hidden="false">
+      <description>A model with Long Shot can spend its
+entire movement to increase the range of any ranged
+attacks it makes during that activation by +2.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e233-b1d0-0274-2bf6" name="Nimble" hidden="false">
+      <description>When a model with Nimble dodges, it may
+reroll any of its dice.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ad3e-4700-743f-087c" name="Precision Strike" hidden="false">
+      <description>When a model with Precision Strike
+chooses Fire as the combat result, only enemy models
+within the attacker’s influence zone get Stunned.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d5f8-8704-ae1e-3848" name="Ranged Master" hidden="false">
+      <description>A model with Ranged Master may reroll
+one of its dice when taking a ranged attack action.</description>
+      <modifiers/>
+    </rule>
+    <rule id="93ed-7221-1f22-8cd5" name="Redirection" hidden="false">
+      <description>When a model with Redirection is
+targeted by a Ranged Attack, it may make an affinity
+test. If the test is successful, the model may pick any
+friendly or enemy model within range of the attacker
+as the new target of the attack.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8d7c-7c05-0b4d-6f59" name="Regeneration" hidden="false">
+      <description>When a model with Regeneration is in
+the Healing House, at the end of the round it makes an
+affinity test before models are moved into the Training
+Ground. If the test is successful, it is moved into the
+Training Ground in addition to any other models. </description>
+      <modifiers/>
+    </rule>
+    <rule id="ed6b-8a54-f906-758d" name="Resilient" hidden="false">
+      <description>When a model with Resilient is Injured or
+Stunned by an effect caused by an enemy, roll a die. If
+any of the model’s affinities are rolled, then Injured is
+downgraded to Stunned, or Stunned is downgraded
+to nothing happening to the Resilient model.</description>
+      <modifiers/>
+    </rule>
+    <rule id="220d-7672-9857-38f6" name="Sensei" hidden="false">
+      <description>Once per round, one die rolled by any model on
+the same team as the model with Sensei may be rerolled.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0eb7-e22e-240c-e65c" name="Sicken" hidden="false">
+      <description>A model with Sicken may use its action to
+make an affinity test. If the test is successful, every
+enemy model within its influence zone is Poisoned.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e324-5297-14a4-c0b6" name="Sneaky" hidden="false">
+      <description>A model with Sneaky begins the game in
+Stealth, regardless of the challenge’s special rules. A
+model with Sneaky may go into Stealth by spending
+either all of its movement or its action.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1a07-86f1-631c-4ebf" name="Spirit Mastery" hidden="false">
+      <description>Once per round, after a model with
+Spirit Mastery makes a roll, it may reroll any dice
+that did not result in Spirit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2e94-36a1-ad6c-8353" name="Sprint" hidden="false">
+      <description>When a model with Sprint runs, it may move an
+additional +2 spaces, i.e. double movement +2 spaces.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8418-3936-b544-7b9e" name="Surefoot" hidden="false">
+      <description>A model with Surefoot only spends one
+movement point to move onto a rough terrain space
+and may move through foliage and remain in Stealth</description>
+      <modifiers/>
+    </rule>
+    <rule id="4745-a4c1-8b34-6cfb" name="Tanchyo’s Wings" hidden="false">
+      <description>A model with Tanchyo’s Wings can
+move through spaces that are occupied by other models.
+If it attempts to move across an enemy model’s space, it
+must attempt to dodge. If the model fails to dodge, it is
+placed in an empty space in the enemy model’s influence
+zone that is chosen by the enemy model’s player, and gets
+Stunned. A model with Tanchyo’s Wings cannot end its
+movement in a space occupied by another model.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ee9b-9a36-57ef-43f1" name="Tidal Wave" hidden="false">
+      <description>Once per round, a model with Tidal
+Wave gets +1DF against a single attack.</description>
+      <modifiers/>
+    </rule>
+    <rule id="497a-f2df-5a95-e630" name="Tora’s Claws" hidden="false">
+      <description>A model with Tora’s Claws gets +1AT
+when attacking models with a Stun token.</description>
+      <modifiers/>
+    </rule>
+    <rule id="fa7c-29fd-4b8b-fc06" name="Tough" hidden="false">
+      <description>At the beginning of its activation, a model
+with Tough may make an affinity test. If the test is
+successful, it gets a Protect token.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0601-6aa0-b5f3-7531" name="Vigilance" hidden="false">
+      <description> If an enemy model in Stealth moves into
+the influence zone of a model with Vigilance, the
+moving model immediately loses Stealth.</description>
+      <modifiers/>
+    </rule>
+    <rule id="58a1-eb0b-1cec-8520" name="Void Mastery" hidden="false">
+      <description>Once per round, after a model with Void Mastery makes a roll, it may reroll any dice that did not result in Void.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8d31-814b-f17c-8284" name="Water Mastery" hidden="false">
+      <description>Once per round, after a model with
+Water Mastery makes a roll, it may reroll any dice
+that did not result in Water.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7fed-cab8-fb54-a1f3" name="Wind in the Forest" hidden="false">
+      <description>A model with Wind in the
+Forest may stop during its movement to take an
+attack action. If the target of the attack is Stunned
+or Injured, the model may continue its movement as
+normal. After using this ability, the model cannot
+take an action.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0577-5d55-f110-e4fd" name="Yamazaru’s Tail" hidden="false">
+      <description>Attacks made against a model with
+Yamazaru’s Tail do not get back strike bonuses.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>

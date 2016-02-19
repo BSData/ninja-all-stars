@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="24ab-3591-2a43-8b0b" revision="1" gameSystemId="6d8c-3a0c-8102-151d" gameSystemRevision="1" battleScribeVersion="1.15" name="Ijin" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="fc4b-dd4f-65c3-a206" name="Bomechan" points="22.0" categoryId="6ae0-6fff-9a59-86eb" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="2e65-f81a-e596-3dfe" name="Whirlwind" hidden="false">
+          <description>Bomechan may use her action to attack every
+enemy model in her influence zone. Resolve the attack against
+each model completely before attacking the next model. If
+Bomechan chooses Void, then the target is Stunned instead
+of Injured. If Bomechan is Injured or gets Stunned, then she
+stops attacking and does not continue to a new target.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="136c-1c39-84bd-75e8" profileTypeId="a503-5d73-87af-11ff" name="Bomechan" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="2d23-ed74-abcb-47d8" name="MV" value="7"/>
+            <characteristic characteristicId="a056-5e59-5a84-5dab" name="AT" value="3"/>
+            <characteristic characteristicId="45d1-fd92-fd3a-e001" name="DF" value="2"/>
+            <characteristic characteristicId="c2f2-97f5-e211-6cd3" name="Affinity" value="Void"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3c82-f6bf-114e-5913" targetId="af39-768e-319c-bb8c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b5b3-f39e-7522-7393" targetId="c1bc-6782-3c82-4f03" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b2cf-b0b2-5276-6a26" targetId="e233-b1d0-0274-2bf6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ca12-d920-d834-a00b" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="acce-d7dd-8a36-8587" name="Chunin" points="20.0" categoryId="f7d7-7a8b-5515-a0b5" type="model" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="9d7c-4aa5-aea0-2de6" name="Ability" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c0ec-b4cc-9744-ca26" name="Soul Capture" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="523e-d2ab-b791-ed17" name="Soul Capture" hidden="false">
+                  <description>Whenever the chunin Injures a model, the chunin gets a Haste token.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="01bb-5b66-62d6-0cae" name="Tyrant" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="ed74-6475-56d3-7f54" name="Tyrant" hidden="false">
+                  <description>Friendly models within four spaces of the
+chunin get +1AT when they make an attack. If a
+friendly model within the area of this ability attacks
+an enemy model and doesn’t Injure it, the attacking
+model is Stunned.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8efe-bb90-cd98-11f8" profileTypeId="a503-5d73-87af-11ff" name="Chunin" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="2d23-ed74-abcb-47d8" name="MV" value="5"/>
+            <characteristic characteristicId="a056-5e59-5a84-5dab" name="AT" value="4"/>
+            <characteristic characteristicId="45d1-fd92-fd3a-e001" name="DF" value="3"/>
+            <characteristic characteristicId="c2f2-97f5-e211-6cd3" name="Affinity" value="Void"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="5ec6-8a33-cf34-a4a3" targetId="4705-b8f6-2942-a0d5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="249f-fa25-73a6-262a" targetId="58a1-eb0b-1cec-8520" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="30eb-4c41-a42a-bd54" name="Kaiken" points="12.0" categoryId="f7d7-7a8b-5515-a0b5" type="model" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="fb93-8995-bb45-6fe1" profileTypeId="a503-5d73-87af-11ff" name="Kaiken" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="2d23-ed74-abcb-47d8" name="MV" value="5"/>
+            <characteristic characteristicId="a056-5e59-5a84-5dab" name="AT" value="3"/>
+            <characteristic characteristicId="45d1-fd92-fd3a-e001" name="DF" value="3"/>
+            <characteristic characteristicId="c2f2-97f5-e211-6cd3" name="Affinity" value="Void"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="8a03-8787-2c00-b3ef" name="Kunoichi" points="9.0" categoryId="f7d7-7a8b-5515-a0b5" type="model" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="37dc-647e-0885-65c5" profileTypeId="a503-5d73-87af-11ff" name="Kunoichi" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="2d23-ed74-abcb-47d8" name="MV" value="7"/>
+            <characteristic characteristicId="a056-5e59-5a84-5dab" name="AT" value="2"/>
+            <characteristic characteristicId="45d1-fd92-fd3a-e001" name="DF" value="1"/>
+            <characteristic characteristicId="c2f2-97f5-e211-6cd3" name="Affinity" value="Void"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="bf74-0594-9d22-c249" targetId="af39-768e-319c-bb8c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d959-999f-6459-b5c8" targetId="e233-b1d0-0274-2bf6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="aeaf-2ff6-7d07-d9ff" name="Madoushi" points="15.0" categoryId="f7d7-7a8b-5515-a0b5" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="d168-d99d-01bc-1b48" name="Ability" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="cc9a-cc25-c067-ba1c" name="Blood Frenzy" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="8f54-89c0-3049-f866" name="Blood Frenzy" hidden="false">
+                  <description>When the madoushi activates, it
+makes an affinity test. If the test is successful, Haste
+a friendly model within four spaces.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="4e2c-5aa3-dfab-dadd" name="Skull Hex" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="f585-a58e-5fae-bb9f" name="Skull Hex" hidden="false">
+                  <description>The madoushi may use its action to make
+an affinity test. If the test is successful, choose an
+enemy model within six spaces, the chosen model
+and any enemy model in its influence zone get -1DF
+, to a minimum of 1, until the end of the round.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="0a03-8cda-9bd5-4da0" profileTypeId="a503-5d73-87af-11ff" name="Madoushi" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="2d23-ed74-abcb-47d8" name="MV" value="5"/>
+            <characteristic characteristicId="a056-5e59-5a84-5dab" name="AT" value="3"/>
+            <characteristic characteristicId="45d1-fd92-fd3a-e001" name="DF" value="3"/>
+            <characteristic characteristicId="c2f2-97f5-e211-6cd3" name="Affinity" value="Void"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="bfea-171c-e132-fa03" targetId="58a1-eb0b-1cec-8520" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2103-972f-21b4-cc03" name="Oni" points="18.0" categoryId="f7d7-7a8b-5515-a0b5" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6103-6da3-90c7-ab34" profileTypeId="a503-5d73-87af-11ff" name="Oni" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="2d23-ed74-abcb-47d8" name="MV" value="4"/>
+            <characteristic characteristicId="a056-5e59-5a84-5dab" name="AT" value="5"/>
+            <characteristic characteristicId="45d1-fd92-fd3a-e001" name="DF" value="2"/>
+            <characteristic characteristicId="c2f2-97f5-e211-6cd3" name="Affinity" value="Void"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b890-20d8-780d-0410" targetId="c1bc-6782-3c82-4f03" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bc30-31ee-3fba-395d" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="22bc-a664-7a82-ab8d" name="Yajiri" points="7.0" categoryId="f7d7-7a8b-5515-a0b5" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="6a50-3b9f-8675-a448" name="Ranged 6" hidden="false">
+          <description>+2AT</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="e453-26ba-eb60-7ee4" profileTypeId="a503-5d73-87af-11ff" name="Yajiri" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="2d23-ed74-abcb-47d8" name="MV" value="5"/>
+            <characteristic characteristicId="a056-5e59-5a84-5dab" name="AT" value="1"/>
+            <characteristic characteristicId="45d1-fd92-fd3a-e001" name="DF" value="2"/>
+            <characteristic characteristicId="c2f2-97f5-e211-6cd3" name="Affinity" value="Void"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="07f3-4dc9-57ff-d10f" name="Yobuko" points="25.0" categoryId="6ae0-6fff-9a59-86eb" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="1bc4-6067-b769-e6cb" name="Supreme Master of the Fist" hidden="false">
+          <description>If an enemy model on the
+board has an Attack or Defense attribute equal to or
+greater than Yobuko’s Attack attribute, that model is his
+rival, and he must move toward and attack the model
+during each of his activations. Toward means closer, but
+moving in a straight line is not required. While Yobuko
+must attempt to get closer to his rival, he does not have to
+move into or through enemy influence zones if his player
+does not wish him to do so. Yobuko gets +1AT when
+attacking his rival. If there are multiple models that are
+Yobuko’s rivals, Yobuko’s player may decide which one
+Yobuko moves toward and attempts to attack during each
+activation. If Yobuko cannot attack a rival after moving,
+then he may take whatever action his player wishes.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="8d2e-9eba-681d-bb3d" profileTypeId="a503-5d73-87af-11ff" name="Yobuko" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="2d23-ed74-abcb-47d8" name="MV" value="5"/>
+            <characteristic characteristicId="a056-5e59-5a84-5dab" name="AT" value="5"/>
+            <characteristic characteristicId="45d1-fd92-fd3a-e001" name="DF" value="4"/>
+            <characteristic characteristicId="c2f2-97f5-e211-6cd3" name="Affinity" value="Void"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e423-675a-0c2d-84d2" targetId="4705-b8f6-2942-a0d5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3420-57df-cdde-536a" targetId="6884-fa30-6a08-16c2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c6e7-3766-4788-43bb" targetId="92c3-f547-ab86-92c6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ac27-90d0-77f8-8d13" targetId="e233-b1d0-0274-2bf6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3460-c0ed-3427-27da" targetId="ed6b-8a54-f906-758d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </entries>
+  <rules/>
+  <links/>
+  <sharedEntries/>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="af39-768e-319c-bb8c" name="Backstab" hidden="false">
+      <description>A model with Backstab gets +2AT , instead of +1, when making a back strike.</description>
+      <modifiers/>
+    </rule>
+    <rule id="60f4-5246-7f72-5b82" name="Blood Lust" hidden="false">
+      <description>At the beginning of its activation, a model with Blood Lust may make an affinity test. If the test is successful, it gets a Haste token. The Haste token may be used this activation or following activations as normal.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4705-b8f6-2942-a0d5" name="Close Combat Master" hidden="false">
+      <description>A model with Close Combat Master may reroll one of its dice when making a combat roll.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6884-fa30-6a08-16c2" name="Dirty Fighter" hidden="false">
+      <description>When a model with Dirty Fighter attacks, after eliminations, the defender must have at least two more dice than the attacker in order to choose the result of the attack.</description>
+      <modifiers/>
+    </rule>
+    <rule id="92c3-f547-ab86-92c6" name="Emptiness" hidden="false">
+      <description>A model with Emptiness gets +1AT if the model they are attacking gets an assist bonus and it does not.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c1bc-6782-3c82-4f03" name="Ijin’s Horns" hidden="false">
+      <description>If a model with Ijin’s Horns moves three
+or more spaces before attacking, it gets +1 AT</description>
+      <modifiers/>
+    </rule>
+    <rule id="e233-b1d0-0274-2bf6" name="Nimble" hidden="false">
+      <description>When a model with Nimble dodges, it may
+reroll any of its dice.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ed6b-8a54-f906-758d" name="Resilient" hidden="false">
+      <description>When a model with Resilient is Injured or
+Stunned by an effect caused by an enemy, roll a die. If
+any of the model’s affinities are rolled, then Injured is
+downgraded to Stunned, or Stunned is downgraded
+to nothing happening to the Resilient model.</description>
+      <modifiers/>
+    </rule>
+    <rule id="58a1-eb0b-1cec-8520" name="Void Mastery" hidden="false">
+      <description>Once per round, after a model with Void Mastery makes a roll, it may reroll any dice that did not result in Void.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>
